@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Smart Watch</title>
+        <!-- bootstrap declaration-->
+        <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		 <!--compiled jquery-->
+        <script type="text/javascript" src="Bootstrap/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+        
+        <!-- javascript library-->
+        <script type="text/javascript" src="Bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<style>
+		  .row_style{}
+		     margin-top:150px;
+			 padding-left:150px;
+		  }
+		</style>
+    </head>
+	<body>
+	<nav>
+	<div class= "navbar navbar-default navbar-fixed-top">
+	<div class="nav navbar navbar-nav" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+	<div class="container navbar-collapse" id="mynavbar">
+	<ul class="nav navbar-nav navbar-left navbar-header">
+	<div class="logo_area">
+	</div>
+	</div>
+	</div>
+	
+	</div>
+	
+	</nav>
+	<div class='row text-centre'>
+    <div class='col-md-5 col-sm-8'>
+	<div class="thumbnail banner_image">
+	
+	<img src="https://i.imgur.com/iOeUBV7.png" id="social" border="none"></img>
+	<div class="text-wrapper datetime">
+	
+	<span id="hour">00</span>:
+	<span id="minutes">00</span>:
+	<span id="seconds">00</span>
+	<img id="heart" src=""></img>
+	<div class="row row_style">
+	<h2>FitBit-19-The Smartest Watch</h2>
+	<p>Best Watch At Best Prices</p></br></br></br>
+	</div>
+	</div>
+	<div id="select">
+	<p><b>Select Color</b></p></div>
+	<div id="box1"></div>
+	<div id="box2"></div>
+	<div id="box3"></div>
+
+	<div id="features">
+	<p><b>Features</b></p></div>
+	<div id="box4">
+	<script type="text/javascript" src="./Watch.js"></script>
+	<script>
+		  console.log("Happy to Learn Javascript!");
+		  let btn=document.getElementById('box4');
+		  var i=document.getElementById('heart');
+		  var t=document.getElementById('seconds');
+var m=document.getElementById('minutes');
+var h=document.getElementById('hour');
+var sh=0,mh=0,hh=0,myInterval;
+		  btn.addEventListener('click',function(){
+		  clearInterval(myInterval);
+ myInterval=setInterval(function(){
+			   i.src='';
+			   i.style.width=0+'px';
+			   i.style.height=0+'px';
+		      sh = sh<59? sh+1:0;
+			  t.innerHTML=sh<10?"0"+sh:sh;
+			  mh=sh>=59?mh+1:mh;
+			  m.innerHTML=mh<10?"0"+mh:mh;
+			  hh=mh>=59?hh+1:hh;
+			  h.innerHTML=hh<10?"0"+hh:hh;
+			  t.style.color='#fff';
+			h.style.color='#fff';
+			m.style.color='#fff';
+},1000)});
+
+ </script>
+	<input type="button" value="Time"></div>
+	<div id="box5">
+	<script>
+	let box5=document.getElementById('box5');
+	var t=document.getElementById('seconds');
+var m=document.getElementById('minutes');
+var h=document.getElementById('hour');
+	var i=document.getElementById('heart');
+		  box5.addEventListener('click',function(){
+		 
+             clearInterval(myInterval);
+		    i.src="https://tenor.com/view/heart-pulse-rate-pumping-heart-red-in-love-gif-17782252.gif";
+			i.style.width=150+'px';
+			i.style.height=180+'px';
+			t.style.color='#000';
+			h.style.color='#000';
+			m.style.color='#000';
+	});
+		  </script>
+    <input type="button" value="Heart"></div>
+	<div id="box7">Buy Now</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</body>
+	</html>

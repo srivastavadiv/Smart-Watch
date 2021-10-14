@@ -1,0 +1,169 @@
+img
+{
+   display:block;
+   
+  
+}
+.text-wrapper #heart{
+	
+	position:absolute;
+	top:30%;
+	left:186px;
+}
+.img_responsive
+{
+	img-size:small
+	padding-left:0px,5px,0px,5px;
+	margin-bottom:2px;
+}
+.banner_image {
+	position:absolute;
+	margin-left:30px;
+	border:none;
+	margin-top:40px;
+	top:20%;
+}
+.banner_content{
+	height:auto;
+	position:right-side;
+	top:5%;
+}
+
+
+h1{
+	position:relative;
+	text-align:middle;
+	top:0;
+	margin-top:5px;
+	position:fixed-top;
+	
+}
+.content-wrapper{
+	margin-left:4px;
+}
+.text-wrapper #seconds{
+	padding-left:280px;
+	color:#fff;
+	position:absolute;
+	top:40%;
+	font-size:30px;
+}
+
+.text-wrapper .datetime{
+	color:#fff;
+	
+}
+.text-wrapper #minutes{
+	
+	padding-left:230px;
+	color:#fff;
+	position:absolute;
+	top:40%;
+	font-size:30px;
+	
+}
+.text-wrapper #hour{
+	
+	padding-left:180px;
+	color:#fff;
+	position:absolute;
+	top:40%;
+	font-size:30px;
+	
+}
+
+img{
+	vertical-align:middle;
+}
+.text-wrapper h2{
+	position:fixed;
+    top:23%;
+	color:#000;
+	left:34%;
+	display:inline-flex;
+	}
+ .row_style p{
+	position:fixed;
+	top:34%;
+	color:#000;
+	left:34%;
+	display:inline-block;
+}
+#box1{
+	position:absolute;
+	top:45%;
+	left:80%;
+	width:35px;
+	height:35px;
+	background-color:#797EF6;
+}
+#box2{
+	position:absolute;
+	top:45%;
+	left:90%;
+	width:35px;
+	height:35px;
+	background-color:#ca3d22;
+}
+#box3{
+	position:absolute;
+	top:45%;
+	left:100%;
+	width:35px;
+	height:35px;
+	background-color:#FFB6C1;
+}
+#select{
+	position:absolute;
+	top:40%;
+	left:80%;
+	display:inline-block;
+}
+#features{
+	position:absolute;
+	top:58%;
+	left:80%;
+}
+#box4{
+	position:absolute;
+	top:63%;
+	left:80%;
+	width:50px;
+	height:30px;
+	
+}
+#box5{
+	position:absolute;
+	top:63%;
+	left:95%;
+	width:50px;
+	height:30px;
+	
+}
+#box7{
+	position:absolute;
+	top:75%;
+	left:80%;
+	width:60px;
+	height:30px;
+	background-color: #E1AD01;
+}
+.top{
+	top:0px;
+}
+.thumbnail img{
+	height:auto;
+}
+
+.logo_area
+{
+	
+	
+	position:absolute;
+	left:0px;
+	content:"";
+}
+#mynavbar{
+	left:100px;
+	position:relative;
+}
